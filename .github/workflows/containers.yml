@@ -13,9 +13,6 @@ jobs:
       #   with:
       #     python-version: "3.8"
 
-      # - name: Install
-      #   run: |
-      #     pip install poetry
       
       - name: Fetch Tags
         run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* # see https://stackoverflow.com/a/60184319/9285308
