@@ -15,8 +15,8 @@ jobs:
       #     python-version: "3.8"
 
       
-      - name: Fetch Tags
-        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* # see https://stackoverflow.com/a/60184319/9285308
+      # - name: Fetch Tags
+        # run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* # see https://stackoverflow.com/a/60184319/9285308
 
       # - name: Build containers
       #   run: |
